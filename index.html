@@ -1,9 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dongmei Chen | Professional Profile</title>
+  <title>Dongmei Chen | 陈冬梅 | Professional Profile</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
     /* 全局样式重置 */
@@ -482,6 +480,13 @@
       color: var(--muted-color);
     }
 
+    .form-notice {
+      font-size: 0.8rem;
+      color: var(--muted-color);
+      margin-bottom: 1rem;
+      line-height: 1.5;
+    }
+
     .form-group {
       margin-bottom: 1.2rem;
     }
@@ -648,7 +653,7 @@
     <div class="container">
       <div class="hero-content">
         <div class="profile">
-          <img src="https://p3-flow-imagex-sign.byteimg.com/tos-cn-i-a9rns2rl98/rc/pc/code_assistant/0c9fac5426fb4c9e98684520fdbf2c3c~tplv-a9rns2rl98-image.image?rcl=20250818113059B18B55A3070417BB0836&amp;rk3s=8e244e95&amp;rrcfp=e75484ac&amp;x-expires=1756092660&amp;x-signature=gpW%2FRVei8m618md74H5l6pz2IZ8%3D" alt="Dongmei Chen profile photo" class="profile-img">
+          <img src="https://p3-flow-imagex-sign.byteimg.com/tos-cn-i-a9rns2rl98/rc/pc/code_assistant/debfe943167f4d39a031dc6d5a822629~tplv-a9rns2rl98-image.image?rcl=202508182348065115C7D1A40592140619&amp;rk3s=8e244e95&amp;rrcfp=e75484ac&amp;x-expires=1756136889&amp;x-signature=fFvr0txOChYStFQvImB5ETjnE%2Bo%3D" alt="Dongmei Chen profile photo" class="profile-img">
         </div>
         <div class="text-content">
           <h1 id="heroName">Dongmei Chen</h1>
@@ -688,8 +693,8 @@
             <span class="skill-tag">Social Research</span>
             <span class="skill-tag">Data Analysis</span>
             <span class="skill-tag">In-depth Interviews</span>
-            <span class="skill-tag">NGO & CSR research</span>
-            <span class="skill-tag">Photography & PS</span>
+            <span class="skill-tag">NGO &amp; CSR research</span>
+            <span class="skill-tag">Photography &amp; PS</span>
             <span class="skill-tag">Video Editing</span>
             <span class="skill-tag">MS Office</span>
             <span class="skill-tag">AI Software</span>
@@ -704,11 +709,11 @@
           </div>
           <div style="margin-bottom: 1.2rem;">
             <p style="font-weight: 400;">Master of Sociology</p>
-            <p class="desc">East China University of Science & Technology, Shanghai, China | 2020-2023</p>
+            <p class="desc">East China University of Science &amp; Technology, Shanghai, China | 2020-2023</p>
           </div>
           <div>
             <p style="font-weight: 400;">Bachelor of Management (Accounting)</p>
-            <p class="desc">Sichuan University of Science & Engineering, Sichuan, China | 2014-2018</p>
+            <p class="desc">Sichuan University of Science &amp; Engineering, Sichuan, China | 2014-2018</p>
           </div>
         </div>
       </div>
@@ -735,7 +740,7 @@
         
         <div class="experience-entry">
           <p class="period">2019-2020</p>
-          <h3>Community Officer Assistant & Volunteer</h3>
+          <h3>Community Officer Assistant &amp; Volunteer</h3>
           <p class="company">NGO: Lijiang Health and Environment Research Center, Yunnan, China</p>
           <p class="desc">
             • Led the "Rural Pesticide Use Survey in the Three Parallel Rivers Area"<br>
@@ -761,14 +766,14 @@
         
         <div class="experience-entry">
           <p class="period">2015-2017</p>
-          <h3>President & Reporter</h3>
-          <p class="company">Sichuan University of Science & Engineering, Student Union & Press Corps, Sichuan, China</p>
+          <h3>President &amp; Reporter</h3>
+          <p class="company">Sichuan University of Science &amp; Engineering, Student Union &amp; Press Corps, Sichuan, China</p>
           <p class="desc">
             • Managed 20+ university events (World Food Day etc.) with 10k+ attendees<br>
-            • Handled workflow, budget, staffing & risk control<br>
+            • Handled workflow, budget, staffing &amp; risk control<br>
             • Built full-cycle project management skills<br>
             • Led team to establish campus services with 70% reputation growth<br>
-            • Developed a 70k+ user "Lost & Found" platform
+            • Developed a 70k+ user "Lost &amp; Found" platform
           </p>
         </div>
       </div>
@@ -784,27 +789,28 @@
         <button class="filter-btn" data-filter="journal" data-target="publication">Journal Articles</button>
         <button class="filter-btn" data-filter="dissertation" data-target="publication">Dissertation</button>
       </div>
-      <div class="single-card">
-        <div class="publication-entry" data-type="journal">
-          <p style="font-weight: 400; margin-bottom: 0.5rem;">Yang Jun, Chen Dongmei. (2023)</p>
+      <div class="single-card" id="publications-container">
+        <!-- 论文按时间倒序排列 -->
+        <div class="publication-entry" data-type="dissertation" data-year="2023">
+          <p style="font-weight: 400; margin-bottom: 0.5rem;">Chen Dongmei. (2023)</p>
           <p>Study of Integrative Governance in Metropolitan Rural Communities: The Case Study of Shanghai Xing Village.</p>
-          <p class="desc" style="margin-top: 0.5rem;">East China University of Science & Technology Journal</p>
+          <p class="desc" style="margin-top: 0.5rem;">East China University of Science &amp; Technology Journal</p>
         </div>
         
-        <div class="publication-entry" data-type="journal">
+        <div class="publication-entry" data-type="journal" data-year="2023">
           <p style="font-weight: 400; margin-bottom: 0.5rem;">Yang Jun, Chen Dongmei. (2023)</p>
           <p>The Construction of Rural Community Community from the Perspective of Life.</p>
-          <p class="desc" style="margin-top: 0.5rem;">Study and Practice</p>
+          <p class="desc" style="margin-top: 0.5rem;">Study and Practice (CSSCI, PUK)</p>
         </div>
         
-        <div class="publication-entry" data-type="journal">
+        <div class="publication-entry" data-type="journal" data-year="2021">
           <p style="font-weight: 400; margin-bottom: 0.5rem;">Yang Jun, Chen Dongmei. (2021)</p>
           <p>The History of Public Square Dancing and the Attribute Analysis of Urban Mass Culture.</p>
-          <p class="desc" style="margin-top: 0.5rem;">Urban Insight</p>
+          <p class="desc" style="margin-top: 0.5rem;">Urban Insight (AMI)</p>
         </div>
         
-        <div class="publication-entry" data-type="dissertation">
-          <p style="font-weight: 400; margin-bottom: 0.5rem;">Anonymous. (2021)</p>
+        <div class="publication-entry" data-type="journal" data-year="2021">
+          <p style="font-weight: 400; margin-bottom: 0.5rem;">Unsigned. (2021)</p>
           <p>Spatial Structure and Social Integration: Research Approach to Classified Governance Population-Inflow Communities.</p>
           <p class="desc" style="margin-top: 0.5rem;">Fujian Tribune</p>
         </div>
@@ -853,7 +859,7 @@
         
         <div class="project-entry" data-type="national">
           <p class="year">2022</p>
-          <h3>Institutional Care for Rural Disabled and Dementia Elderly</h3>
+          <h3>Research on institutionalized elderly people with disabilities and dementia and their needs &amp; Research on the structural power change of rural families and family policy innovation(19BRK025 &amp; 18CSH031)</h3>
           <div class="project-tags">
             <span class="project-tag">Rural Families</span>
             <span class="project-tag">Family Structure</span>
@@ -863,7 +869,7 @@
         
         <div class="project-entry" data-type="national">
           <p class="year">2021</p>
-          <h3>Reconstruction of Publicity in Urban Community Governance (16CSH068)</h3>
+          <h3>A Study on the Reconstruction of Publicity in Urban Community Governance(16CSH068)</h3>
           <div class="project-tags">
             <span class="project-tag">Urban Governance</span>
             <span class="project-tag">Publicness</span>
@@ -873,7 +879,7 @@
         
         <div class="project-entry" data-type="national">
           <p class="year">2021</p>
-          <h3>Grassroots Self-governance in Population Inflow Areas</h3>
+          <h3>Research on the social mechanism of grassroots self-governance in areas with population influx Research on Co-operative Construction of Main Body and Institutional Mechanism of Grassroots Autonomy(16ZDA078)</h3>
           <div class="project-tags">
             <span class="project-tag">Classified Governance</span>
             <span class="project-tag">Population Mobility</span>
@@ -942,7 +948,10 @@
         </div>
         
         <div class="contact-form">
-          <h3 style="font-size: 1.1rem; font-weight: 400; margin-bottom: 1.2rem;">Send a Message</h3>
+          <h3 style="font-size: 1.1rem; font-weight: 400; margin-bottom: 0.5rem;">Send a Message</h3>
+          <p class="form-notice" id="formNotice">
+            This form cannot send messages directly. Please contact me via email: dadacd2@163.com
+          </p>
           <form>
             <div class="form-group">
               <label for="name">Your Name</label>
@@ -969,7 +978,7 @@
   </footer>
 
   <script>
-    // 存储翻译文本 - 确保每种语言都有完整对应
+    // 存储翻译文本
     const translations = {
       en: {
         about: "About",
@@ -1008,7 +1017,8 @@
         contactLabelEmail: "Email",
         contactLabelLocation: "Location",
         contactEmail: "dadacd2@163.com",
-        contactLocation: "Baoshan District, Shanghai, China"
+        contactLocation: "Baoshan District, Shanghai, China",
+        formNotice: "This form cannot send messages directly. Please contact me via email: dadacd2@163.com"
       },
       zh: {
         about: "关于我",
@@ -1023,7 +1033,7 @@
         heroDesc: "专注于社会研究、NGO研究和企业社会责任领域，擅长统计分析、深度访谈、活动策划和项目管理，同时我也热爱摄影以记录社会现象。",
         viewPublications: "查看学术成果",
         contactMe: "联系我",
-        professionalProfile: "专业简介",
+        professionalProfile: "个人简介",
         professionalSkills: "专业技能",
         education: "教育背景",
         getInTouch: "保持联系",
@@ -1047,11 +1057,12 @@
         contactLabelEmail: "邮箱",
         contactLabelLocation: "地址",
         contactEmail: "dadacd2@163.com",
-        contactLocation: "中国上海市宝山区"
+        contactLocation: "中国上海市宝山区",
+        formNotice: "表单暂无法直接发送，建议通过邮箱 dadacd2@163.com 联系我"
       }
     };
 
-    // 存储英文内容（用于翻译切换）
+    // 存储英文内容
     const englishContent = {
       experienceEntries: [
         {
@@ -1077,9 +1088,9 @@
       ],
       publicationEntries: [
         {
-          authors: "Yang Jun, Chen Dongmei. (2023)",
+          authors: "Chen Dongmei. (2023)",
           title: "Study of Integrative Governance in Metropolitan Rural Communities: The Case Study of Shanghai Xing Village.",
-          source: "East China University of Science & Technology"
+          source: "East China University of Science & Technology Journal"
         },
         {
           authors: "Yang Jun, Chen Dongmei. (2023)",
@@ -1092,7 +1103,7 @@
           source: "Urban Insight (AMI)"
         },
         {
-          authors: "Unsigned, (2021)",
+          authors: "Unsigned. (2021)",
           title: "Spatial Structure and Social Integration: Research Approach to Classified Governance Population-Inflow Communities.",
           source: "Fujian Tribune (CSSCI, PUK)"
         }
@@ -1124,7 +1135,7 @@
       skillTags: ["Social Research", "Data Analysis", "In-depth Interviews", "NGO & CSR research", "Photography & PS", "Video Editing", "MS Office", "AI Software"]
     };
 
-    // 存储中文内容（用于翻译切换）
+    // 存储中文内容
     const chineseContent = {
       experienceEntries: [
         {
@@ -1150,7 +1161,7 @@
       ],
       publicationEntries: [
         {
-          authors: "杨君，陈冬梅. (2023)",
+          authors: "陈冬梅. (2023)",
           title: "大都市农村社区的整合性治理研究：以上海星村为例",
           source: "华东理工大学硕士论文"
         },
@@ -1165,7 +1176,7 @@
           source: "城市观察（AMI入库）"
         },
         {
-          authors: "未署名， (2021)",
+          authors: "未署名. (2021)",
           title: "空间结构与社会整合：人口流入型社区分类治理的研究进路",
           source: "福建论坛(人文社会科学版)（CSSCI、北核）"
         }
@@ -1209,7 +1220,7 @@
     const navLinks = document.querySelectorAll('.nav-links a, .mobile-nav a');
     const sectionTitles = document.querySelectorAll('.section-title');
     
-    // 缓存所有需要翻译的元素，避免重复查询DOM
+    // 缓存所有需要翻译的元素
     const translatableElements = {
       logo: document.getElementById('logo'),
       heroName: document.getElementById('heroName'),
@@ -1234,6 +1245,7 @@
       contactLabelLocation: document.querySelector('.contact-label-location'),
       contactEmail: document.querySelector('.contact-email'),
       contactLocation: document.querySelector('.contact-location'),
+      formNotice: document.getElementById('formNotice'),
       formLabels: document.querySelectorAll('.form-group label'),
       formPlaceholders: {
         name: document.getElementById('name'),
@@ -1244,7 +1256,7 @@
       footerText: document.querySelector('.footer')
     };
 
-    // 语言切换功能 - 完全替换内容，确保没有残留
+    // 语言切换功能
     function toggleLanguage() {
       currentLang = currentLang === 'en' ? 'zh' : 'en';
       updateLanguage();
@@ -1286,20 +1298,20 @@
       translatableElements.aboutDesc1.textContent = translations[currentLang].aboutDesc1;
       translatableElements.aboutDesc2.textContent = translations[currentLang].aboutDesc2;
       
-      // 更新技能标签 - 完全替换
+      // 更新技能标签
       const skills = currentLang === 'en' ? englishContent.skillTags : chineseContent.skillTags;
       translatableElements.skillTags.forEach((tag, index) => {
         tag.textContent = skills[index];
       });
       
-      // 更新教育背景 - 完全替换
+      // 更新教育背景
       const eduContent = currentLang === 'en' ? englishContent.educationEntries : chineseContent.educationEntries;
       translatableElements.educationEntries.forEach((entry, index) => {
         entry.querySelector('p:first-child').textContent = eduContent[index].degree;
         entry.querySelector('.desc').textContent = eduContent[index].school;
       });
       
-      // 更新工作经历 - 完全替换
+      // 更新工作经历
       const expContent = currentLang === 'en' ? englishContent.experienceEntries : chineseContent.experienceEntries;
       translatableElements.experienceEntries.forEach((entry, index) => {
         entry.querySelector('h3').textContent = expContent[index].title;
@@ -1307,33 +1319,7 @@
         entry.querySelector('.desc').innerHTML = expContent[index].desc;
       });
       
-      // 更新学术成果 - 完全替换
-      const pubContent = currentLang === 'en' ? englishContent.publicationEntries : chineseContent.publicationEntries;
-      translatableElements.publicationEntries.forEach((entry, index) => {
-        entry.querySelector('p:first-child').textContent = pubContent[index].authors;
-        entry.querySelector('p:nth-child(2)').textContent = pubContent[index].title;
-        entry.querySelector('.desc').textContent = pubContent[index].source;
-      });
-      
-      // 更新研究项目 - 完全替换
-      const projContent = currentLang === 'en' ? englishContent.projectEntries : chineseContent.projectEntries;
-      translatableElements.projectEntries.forEach((entry, index) => {
-        entry.querySelector('h3').textContent = projContent[index].title;
-        
-        // 更新项目标签
-        const tagElements = entry.querySelectorAll('.project-tag');
-        projContent[index].tags.forEach((tag, tagIndex) => {
-          tagElements[tagIndex].textContent = tag;
-        });
-      });
-      
-      // 更新作品集图片alt属性 - 完全替换
-      const portfolioAlt = currentLang === 'en' ? englishContent.portfolioAlt : chineseContent.portfolioAlt;
-      translatableElements.portfolioImages.forEach((img, index) => {
-        img.alt = portfolioAlt[index];
-      });
-      
-      // 更新过滤按钮 - 完全替换
+      // 更新过滤按钮
       translatableElements.filterButtons[0].textContent = translations[currentLang].filterAllPub;
       translatableElements.filterButtons[1].textContent = translations[currentLang].filterJournal;
       translatableElements.filterButtons[2].textContent = translations[currentLang].filterDissertation;
@@ -1341,7 +1327,37 @@
       translatableElements.filterButtons[4].textContent = translations[currentLang].filterGovernment;
       translatableElements.filterButtons[5].textContent = translations[currentLang].filterNational;
       
-      // 更新Contact区域 - 完全替换
+      // 更新论文内容
+      const pubContent = currentLang === 'en' ? englishContent.publicationEntries : chineseContent.publicationEntries;
+      translatableElements.publicationEntries.forEach((entry, index) => {
+        entry.querySelector('p:first-child').textContent = pubContent[index].authors;
+        entry.querySelector('p:nth-child(2)').textContent = pubContent[index].title;
+        entry.querySelector('.desc').textContent = pubContent[index].source;
+      });
+      
+      // 更新研究项目
+      const projContent = currentLang === 'en' ? englishContent.projectEntries : chineseContent.projectEntries;
+      translatableElements.projectEntries.forEach((entry, index) => {
+        entry.querySelector('h3').textContent = projContent[index].title;
+        
+        // 更新项目标签
+        const tagsContainer = entry.querySelector('.project-tags');
+        tagsContainer.innerHTML = '';
+        projContent[index].tags.forEach(tagText => {
+          const tag = document.createElement('span');
+          tag.className = 'project-tag';
+          tag.textContent = tagText;
+          tagsContainer.appendChild(tag);
+        });
+      });
+      
+      // 更新作品集图片alt属性
+      const portfolioAlt = currentLang === 'en' ? englishContent.portfolioAlt : chineseContent.portfolioAlt;
+      translatableElements.portfolioImages.forEach((img, index) => {
+        img.alt = portfolioAlt[index];
+      });
+      
+      // 更新Contact区域
       translatableElements.contactInfoTitle.textContent = translations[currentLang].getInTouch;
       translatableElements.contactFormTitle.textContent = translations[currentLang].sendMessage;
       translatableElements.contactDesc.textContent = translations[currentLang].contactDesc;
@@ -1349,6 +1365,9 @@
       translatableElements.contactLabelLocation.textContent = translations[currentLang].contactLabelLocation;
       translatableElements.contactEmail.textContent = translations[currentLang].contactEmail;
       translatableElements.contactLocation.textContent = translations[currentLang].contactLocation;
+      
+      // 更新表单提示文字
+      translatableElements.formNotice.textContent = translations[currentLang].formNotice;
       
       translatableElements.formLabels[0].textContent = translations[currentLang].yourName;
       translatableElements.formLabels[1].textContent = translations[currentLang].yourEmail;
@@ -1358,7 +1377,7 @@
       translatableElements.formPlaceholders.message.placeholder = translations[currentLang].enterYourMessage;
       translatableElements.sendMessageBtn.textContent = translations[currentLang].sendMessage;
       
-      // 更新页脚 - 完全替换
+      // 更新页脚
       translatableElements.footerText.textContent = translations[currentLang].footerText;
     }
 
@@ -1438,12 +1457,24 @@
       });
     });
 
+    // 阻止表单默认提交行为
+    document.querySelector('.contact-form form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      // 显示提示
+      alert(translations[currentLang].formNotice);
+    });
+
     // 绑定事件监听器
     langBtn.addEventListener('click', toggleLanguage);
     mobileLangBtn.addEventListener('click', toggleLanguage);
     themeBtn.addEventListener('click', toggleTheme);
     mobileThemeBtn.addEventListener('click', toggleTheme);
+
+    // 页面加载完成后初始化语言显示
+    window.addEventListener('DOMContentLoaded', function() {
+      updateLanguage();
+    });
   </script>
-</body>
-</html>
-    
+
+
+    </body></html>
